@@ -9,6 +9,7 @@ Use Ridge Regression and Lasso Regression in prostate cancer data
     * sklearn 0.18.1
     * numpy 1.17.3
     * pandas 0.20.1
+    * scipy 1.2.1
 
 ## Ridge Regression
 
