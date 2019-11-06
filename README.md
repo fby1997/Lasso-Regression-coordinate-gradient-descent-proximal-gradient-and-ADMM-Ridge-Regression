@@ -28,3 +28,4 @@ Result:
 ## Lasso Regression
 
 This model is similar to Ridge, and I use coordinate gradient descent, proximal gradient and ADMM methods seperately to solve Lasso. 
+(when I tried proximal gradient, the parameters seem didn't convergence. I'll release it when I find appropriate step length)
