@@ -28,4 +28,5 @@ Result:
 ## Lasso Regression
 
 This model is similar to Ridge, and I use coordinate gradient descent, proximal gradient and ADMM methods seperately to solve Lasso. 
-(when I tried proximal gradient, the parameters seem didn't convergence. I'll release it when I find appropriate step length)
+
+**Note**: The parameters in proximal gradient descent Lasso need to be adjusted if you want to predict other data. All in all, the rule is to make it iterate enough in a short time. You can try the other two method before using proximal gradient and set the value as the initial value in proximal gradient descent Lasso.
